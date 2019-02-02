@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.hackunix.jersey</groupId>
+    <artifactId>jersey-ext</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>jersey-test</artifactId>
+  <dependencies>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.12</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.jboss.arquillian.junit</groupId>
+  		<artifactId>arquillian-junit-container</artifactId>
+  		<version>1.2.0.Final</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.jboss.arquillian.container</groupId>
+  		<artifactId>arquillian-weld-embedded</artifactId>
+  		<version>2.0.0.Final</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>ws.ament.hammock</groupId>
+  		<artifactId>test-arquillian</artifactId>
+  		<version>2.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.hackunix.jersey</groupId>
+  		<artifactId>jersey-client</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+</project>

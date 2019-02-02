@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.hackunix.jersey</groupId>
+    <artifactId>jersey-ext</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>jersey-client</artifactId>
+  <name>Jersey WebResourceFactory client base class</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.glassfish.jersey.ext</groupId>
+  		<artifactId>jersey-proxy-client</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.glassfish.jersey.core</groupId>
+  		<artifactId>jersey-client</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.glassfish.jersey.media</groupId>
+  		<artifactId>jersey-media-json-binding</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.glassfish.jersey.media</groupId>
+  		<artifactId>jersey-media-moxy</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.hackunix.jaxrs</groupId>
+  		<artifactId>jaxrs-jsonb-context-resolver</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.eclipse.microprofile.config</groupId>
+  		<artifactId>microprofile-config-api</artifactId>
+  	</dependency>
+  </dependencies>
+</project>
